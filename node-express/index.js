@@ -11,7 +11,7 @@ const leaderRouter = require('./routes/leaderRouter');
 
 app.use('/dishes', dishRouter);
 app.use('/leaders', leaderRouter);
-app.use('/Promotions', promoRouter);
+app.use('/promotions', promoRouter);
 
 app.use(morgan('dev'));
 app.use(bodyParser.json());
